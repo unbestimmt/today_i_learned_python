@@ -1,0 +1,7 @@
+print("Programa de cálculo de faturamento mensal\n")
+fixo = float(input("Digite o valor fixo mensal recebido: "))
+comissao = float(input("Digite o valor de comissão (%): "))
+vendas = float(input("Digite o valor de vendas do mês: "))
+faturamento = fixo + vendas*(comissao/100)
+print("\nO faturamento desse mês foi de {:.2f}.\n".format(faturamento))
+print("Fim do programa.")
