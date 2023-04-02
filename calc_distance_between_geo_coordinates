@@ -1,0 +1,10 @@
+from math import sqrt
+print("Program to calculate the distance between two geographic coordinates (x,y)\n")
+x1 = float(input("Type the value of x from the coordinate 1: x1 = "))
+y1 = float(input("Type the value of y from the coordinate 1: y1 = "))
+print(" ")
+x2 = float(input("Type the value of x from the coordinate 2: x2 = "))
+y2 = float(input("Type the value of y from the coordinate 2: y2 = "))
+distance = sqrt((x1 - x2)**2 + (y1-y2)**2)
+print("\nThe distance between coordinate 1 ({:.2f}, {:.2f}) and coordinate 2 ({:.2f}, {:.2f}) is {:.3f}.\n".format(x1, y1, x2, y2, distance))
+print("--- End of program. ---")
