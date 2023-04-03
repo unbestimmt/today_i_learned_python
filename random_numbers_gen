@@ -1,0 +1,20 @@
+def random():
+    from random import randint
+    print("This program generates random numbers between 1 and 50 and presents the sum of them.")
+    print("You get to choose how many random numbers will be presented.\n")
+    try:
+        n=int(input("Type the quantity of random numbers you want: "))
+        print(" ")
+    except:
+        print("Invalid input. Try a whole number.")
+        random()
+    else:
+        i=1
+        soma=0
+        while i <= n:
+            x = randint(1, 50)
+            print("Number {} is {}.".format(i, x))
+            i+=1
+            soma+=x
+        print("\nThe sum of {} random numbers is {}.".format(i-1, soma))
+random()
