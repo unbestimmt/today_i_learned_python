@@ -1,7 +1,0 @@
-print("Programa de cálculo de salário bruto\n")
-valor_hora = float(input("Digite o valor da hora trabalhada: R$ "))
-horas_normais = float(input("Digite a quantidade de horas normais trabalhadas: "))
-horas_extras = float(input("Digite a quantidade de horas extras trabalhadas: "))
-salario = valor_hora*horas_normais + valor_hora*2*horas_extras
-print("\nO salário bruto desse mês será de R$ {:.2f}.\n".format(salario))
-print("--- Fim do programa. ---")
