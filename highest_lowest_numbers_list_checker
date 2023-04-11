@@ -1,3 +1,4 @@
+print("Type a list of numbers and the checker automatically calculates which one is the lowest and highest"/n) 
 n = int(input("Type a whole number: "))
 print(" ")
 i = 0
