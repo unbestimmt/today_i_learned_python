@@ -1,0 +1,10 @@
+n = int(input("Type a whole number: "))
+print(" ")
+i = 0
+a = []
+while i<n:
+    number = float(input("Type a real number: "))
+    a.append(number)
+    i += 1
+print("\nThe lowest number is", min(a))
+print("The highest number is", max(a))
