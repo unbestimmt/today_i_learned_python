@@ -1,6 +1,7 @@
 def random():
     from random import randint
-    print("This program generates random numbers between 1 and 50 and presents the sum of them.")
+    print("This program generates random numbers between 1 and 50,\
+presents the sum of them and order them from lower to higher.")
     print("You get to choose how many random numbers will be presented.\n")
     try:
         n=int(input("Type the quantity of random numbers you want: "))
@@ -22,8 +23,9 @@ def random():
                 soma+=x
                 lista.append(x)
         print("\nThe sum of {} random numbers is {}.".format(i-1, soma))
-        print("\nThe random numbers in order from lower to higher are: ")
+        print("\nThe random numbers in an increasing sequence are: ")
         a = lista.copy()
         a.sort()
-        print(a)
+        for b in a:
+            print("{}, ".format(b), end="")
 random()
