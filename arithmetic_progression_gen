@@ -6,8 +6,7 @@ cont = 0
 list = []
 while cont < n:
     list.append(first)
-    sum = first + cvalue
-    first = sum
+    first += cvalue
     cont +=1
 print("\n", list, "\n")
 print("-"*50)
