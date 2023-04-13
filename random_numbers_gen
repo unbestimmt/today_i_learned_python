@@ -22,7 +22,7 @@ def random():
                 soma+=x
                 lista.append(x)
         print("\nThe sum of {} random numbers is {}.".format(i-1, soma))
-        print("The random numbers in order from lower to higher are: ")
+        print("\nThe random numbers in order from lower to higher are: ")
         a = lista.copy()
         a.sort()
         print(a)
